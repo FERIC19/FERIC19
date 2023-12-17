@@ -1,0 +1,74 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2.logo{
+    font-style: italic;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+ul.hand{
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+}
+
+.bat a{
+    float:left;
+    
+}
+
+
+li a.hover{
+    background-color: grey;
+    opacity: 0.8;
+}
+
+span.ade{
+    color: dodgerblue;
+}
+div.okay{
+    color: black;
+    border:5px ;
+    padding:4px;
+    border-color: aquamarine;
+}
+
+.okay:hover{
+    opacity: 0.7;
+    border-style: groove;
+    background-color: crimson;
+}
+
+d.hope{
+    position: absolute;
+    bottom: 50px;
+}
+
+hope.a{
+    display: inline-block;
+    width:35px;
+    border-radius: 50px;
+    text-align:center;
+    transition:3s;
+}
+
+hope.a:hover{
+    transform:translateY(-5px);
+}
